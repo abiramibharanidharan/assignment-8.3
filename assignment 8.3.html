@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+     <head>
+           <meta charset="utf-8">
+           <title>Assignment 8.3</title>
+           <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+           <link rel="stylesheet" href="/resources/demos/style.css">
+           <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+           <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        /*script for tooltip function*/
+        <script>
+             $(function() {
+                  $(#name).tooltip();
+              });
+        </script>
+         /*input box style*/
+          <style>
+              input
+                    {
+                 display:inline-block;
+                  border:1px solid red;
+                  
+                     }
+          </style>
+      </head>
+       <body>
+            <h3> Enter Name</h3>
+            <form>
+                  <label>First Name:</label>
+                  <input type="text" id="name" title="Please write your first name"></input>
+                  </br><br>
+                 <label>Last Name:</label>
+                 <input type="text" id="lastname" title="Please write your last name"></input>
+             </form>
+     </body>
+</html>
